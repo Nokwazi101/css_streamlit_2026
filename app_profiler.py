@@ -57,7 +57,24 @@ business_years = current_year - FOUNDED_YEAR
 st.markdown(f'<h1 class="title">{BUSINESS_NAME}</h1>', unsafe_allow_html=True)
 st.markdown(f'<p class="tagline">{TAGLINE}</p>', unsafe_allow_html=True)
 
-st.image("Collage_20260202_010745.jpg", caption="Handmade with care since 2017")
+# ===== OPTION 1: Use a web image URL (Recommended - no file needed) =====
+try:
+    # Using a placeholder crochet image from the web
+    st.image(
+        "how-to-crochet-a-sweater-1_image.web",
+        caption="Handmade with care since 2017"
+    )
+   #st.caption("*(Placeholder image - replace with your own)*")
+except:
+    st.write("**Image could not be loaded**")
+    st.write("To add your own image:")
+    st.write("1. Save your image in the same folder as this script")
+    st.write("2. Use: st.image('your_image.jpg', caption='Your caption')")
+
+# ===== OPTION 2: Use your local image file =====
+# To use your own image file, comment out Option 1 above and uncomment below:
+# st.image("your_image_filename_here.jpg", caption="Handmade with care since 2017")
+# Make sure to replace "your_image_filename_here.jpg" with your actual filename
 
 # ===== ABOUT SECTION =====
 st.markdown('<div class="section">', unsafe_allow_html=True)
@@ -147,4 +164,11 @@ st.write("---")
 st.write(f"© {FOUNDED_YEAR}-{current_year} Kwazi's Fiber Bliss")
 st.write("Crafting since childhood • Business since 2017")
 
+# ===== IMAGE HELP =====
+st.write("---")
+st.write("**Image Help:**")
+st.write("Currently using a web image. To use your own:")
+st.write("1. Save your image file (.jpg, .png, .webp) in this folder")
+st.write("2. Replace line 69 with: st.image('YOUR_FILENAME', caption='Handmade with care since 2017')")
+st.write("3. Make sure the filename is EXACT (including .jpg or .png)")
 

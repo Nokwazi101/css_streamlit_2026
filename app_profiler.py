@@ -57,7 +57,7 @@ business_years = current_year - FOUNDED_YEAR
 st.markdown(f'<h1 class="title">{BUSINESS_NAME}</h1>', unsafe_allow_html=True)
 st.markdown(f'<p class="tagline">{TAGLINE}</p>', unsafe_allow_html=True)
 
-st.image("how-to-crochet-a-sweater-1.webp", caption="Handmade with care since 2017")
+st.image("Collage_20260202_010745.jpg", caption="Handmade with care since 2017")
 
 # ===== ABOUT SECTION =====
 st.markdown('<div class="section">', unsafe_allow_html=True)

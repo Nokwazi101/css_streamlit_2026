@@ -81,7 +81,7 @@ st.write(f"- Started business in {FOUNDED_YEAR}")
 st.write("- MSc in Microbiology candidate")
 st.write("- Research on water treatment solutions")
 st.write("")
-st.markdown(f'[Read full article](https://vibeonline.co.za/academic/from-crochet-hooks-to-lab-coats-nokwazis-journey-is-pure-fire/)')
+st.markdown('[Read full article](https://vibeonline.co.za/academic/from-crochet-hooks-to-lab-coats-nokwazis-journey-is-pure-fire/)')
 st.markdown('</div>', unsafe_allow_html=True)
 
 # ===== PRODUCTS & PRICES =====
@@ -89,23 +89,23 @@ st.markdown('<div class="section">', unsafe_allow_html=True)
 st.subheader("Products & Prices")
 
 st.write("**HATS**")
-st.write(f"Ruffle Hats: R250")
-st.write(f"Beanie Hats: R150")
-st.write(f"Sun Hats: R170")
+st.write("Ruffle Hats: R250")
+st.write("Beanie Hats: R150")
+st.write("Sun Hats: R170")
 
 st.write("")
 st.write("**BIKINIS**")
-st.write(f"Bikini Sets: R300")
-st.write(f"Mix & Match: R280")
+st.write("Bikini Sets: R300")
+st.write("Mix & Match: R280")
 
 st.write("")
 st.write("**TWO-PIECE SETS**")
-st.write(f"Youth Sets: R320")
-st.write(f"Seasoned Sets: R350")
+st.write("Youth Sets: R320")
+st.write("Seasoned Sets: R350")
 
 st.write("")
 st.write("**HANDBAGS**")
-st.write(f"Crochet Classy Bags: R350")
+st.write("Crochet Classy Bags: R350")
 
 st.write("")
 st.write("**Children's Discount:** R50 OFF for children under 7 years")
@@ -147,5 +147,4 @@ st.write("---")
 st.write(f"© {FOUNDED_YEAR}-{current_year} Kwazi's Fiber Bliss")
 st.write("Crafting since childhood • Business since 2017")
 
-# ===== RUN INSTRUCTIONS =====
-#.caption("Run: streamlit run filename.py")
+

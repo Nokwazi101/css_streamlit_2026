@@ -164,11 +164,3 @@ st.write("---")
 st.write(f"© {FOUNDED_YEAR}-{current_year} Kwazi's Fiber Bliss")
 st.write("Crafting since childhood • Business since 2017")
 
-# ===== IMAGE HELP =====
-st.write("---")
-st.write("**Image Help:**")
-st.write("Currently using a web image. To use your own:")
-st.write("1. Save your image file (.jpg, .png, .webp) in this folder")
-st.write("2. Replace line 69 with: st.image('YOUR_FILENAME', caption='Handmade with care since 2017')")
-st.write("3. Make sure the filename is EXACT (including .jpg or .png)")
-

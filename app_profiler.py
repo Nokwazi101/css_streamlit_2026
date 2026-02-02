@@ -61,7 +61,7 @@ st.markdown(f'<p class="tagline">{TAGLINE}</p>', unsafe_allow_html=True)
 try:
     # Using a placeholder crochet image from the web
     st.image(
-        "how-to-crochet-a-sweater-1_image.web",
+        "https://cdn-media.knitpro.eu/media/mageplaza/blog/post/brand/how-to-crochet-a-sweater-1.webp",
         caption="Handmade with care since 2017"
     )
    #st.caption("*(Placeholder image - replace with your own)*")
